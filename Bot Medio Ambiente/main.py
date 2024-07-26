@@ -33,4 +33,4 @@ async def idea(ctx):
     with open(f'images/{img_name}', 'rb') as f:
             picture = discord.File(f)
     await ctx.send(file=picture)
-bot.run("MTIyODQ3NTI2NTcyNzA3MDI4MA.GfCKI_.7DEL5qMYezDBy2SmhKRmev5Ay5R_l30hQu2NfA")
+bot.run("TOKEN")
